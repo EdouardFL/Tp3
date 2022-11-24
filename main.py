@@ -24,9 +24,10 @@ class Monstre():
 
 
 class MyGame(arcade.Window):
-    """ Main application class. """
+    """ Classe principale du jeu """
 
     def __init__(self):
+        """Crée les variables qui vont être utilisées"""
         super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
         arcade.set_background_color(arcade.color.PURPLE_NAVY)
 
