@@ -17,6 +17,7 @@ class Monstre():
     def __init__(self):
         # Pour joeur avec deux dé: self.force = random.randint(1, 11)
         self.force = random.randint(1, 5)
+        # Prend une image aléatoire du fichier Monstres
         imgpath = "Images/Monstres"
         files = os.listdir(imgpath)
         self.imagePath = random.choice(files)
